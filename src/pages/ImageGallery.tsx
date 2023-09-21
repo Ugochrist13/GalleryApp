@@ -7,7 +7,7 @@ import Loading from "../assets/loads.gif";
 import Footer from "../components/Footer";
 import { IoMdMenu } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
-import imageData from '../data/Images.json'
+import imageData from '../../public/data/Images.json'
 
 interface Image {
   id: number;
