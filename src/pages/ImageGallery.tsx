@@ -7,6 +7,7 @@ import Loading from "../assets/loads.gif";
 import Footer from "../components/Footer";
 import { IoMdMenu } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
+import imageData from '../data/Images.json'
 
 interface Image {
   id: number;
@@ -62,17 +63,19 @@ const ImageGallery: React.FC<{ images: Image[] }> = ({ images }) => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Simulate loading for 2 seconds (replace with your fetch logic)
+    // // Simulate loading for 2 seconds (replace with your fetch logic)
     setTimeout(() => {
-      // Fetch the JSON data from the public folder or API
-      fetch("src/data/images.json")
-        .then((response) => response.json())
-        .then((data) => {
-          setImageList(data);
-          // setFilteredImages(data);
-          setLoading(false); // Set loading to false when data is loaded
-        })
-        .catch((error) => console.error("Error fetching images:", error));
+    //   // Fetch the JSON data from the public folder or API
+    //   fetch("src/data/images.json")
+    //     .then((response) => response.json())
+    //     .then((data) => {
+    //       setImageList(data);
+    //       // setFilteredImages(data);
+    //       setLoading(false); // Set loading to false when data is loaded
+    //     })
+    //     .catch((error) => console.error("Error fetching images:", error));
+    setLoading(false);
+    setImageList(imageData)
     }, 2000); // Simulate a 2-second loading delay
   }, []);
 
