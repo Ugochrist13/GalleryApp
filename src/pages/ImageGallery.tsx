@@ -65,7 +65,7 @@ const ImageGallery: React.FC<{ images: Image[] }> = ({ images }) => {
     // Simulate loading for 2 seconds (replace with your fetch logic)
     setTimeout(() => {
       // Fetch the JSON data from the public folder or API
-      fetch("/imageData/Images.json")
+      fetch("../../public/imageData/Images.json")
         .then((response) => response.json())
         .then((data) => {
           setImageList(data);
