@@ -1,9 +1,9 @@
+import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
+import ImageGallery from "./pages/ImageGallery";
 import Home from "./pages/Home";
-import MovieDetailPage from "./pages/MovieDetailPage";
-import NotFoundPage from "./pages/NotFoundPage";
 
 const App: React.FC = () => {
   return (
@@ -11,8 +11,7 @@ const App: React.FC = () => {
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/movies/:id" element={<MovieDetailPage />} />
-          <Route element={<NotFoundPage />} />
+          <Route path="/gallery" element={<ImageGallery images={[]} />} />
         </Routes>
       </div>
     </DndProvider>

@@ -7,16 +7,16 @@ const Footer: React.FC = () => {
 
       {/* Social Media Links */}
       <div className="flex space-x-8">
-        <a href="#" className="text-lg">
+        <a href="#" className="text-lg hover:text-hover">
           <FaFacebook />
         </a>
-        <a href="#" className="text-lg">
+        <a href="#" className="text-lg hover:text-hover">
           <FaInstagram />
         </a>
-        <a href="#" className="text-lg">
+        <a href="#" className="text-lg hover:text-hover">
           <FaTwitter />
         </a>
-        <a href="#" className="text-lg">
+        <a href="#" className="text-lg hover:text-hover">
           <FaYoutube />
         </a>
       </div>
@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
 
       {/* Copyright */}
       <div className="text-center mt-1 text-xs">
-        © {new Date().getFullYear()} MovieBox by <span className="text-bg">GentTech Soln..</span>
+        © {new Date().getFullYear()} Gent Gallery by <span className="text-bg">GentTech Soln..</span>
       </div>
     </footer>
   );
