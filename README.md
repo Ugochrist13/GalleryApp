@@ -1,6 +1,6 @@
-# Gent Movie Web Application
+# Gent Image Gallery
 
-This is a movie discovery web application that allows users to search for movies, view movie details, and save their favorite movies. It consumes data from the TMDB API.
+Welcome to the Gent Image Gallery, a web application for exploring a diverse collection of beautiful images. This project allows users to browse, search, and interact with images, making it a delightful visual experience.
 
 ## Getting Started
 
@@ -25,12 +25,6 @@ Before you begin, ensure you have met the following requirements:
 3. Install project dependencies using npm:
    npm install
 
-### Configuration
-
-1. You need to obtain an API key from The Movie Database (TMDB). Visit https://www.themoviedb.org/settings/api to create an account and get your API key.
-
-2. Create a .env file in the project's root directory and add your TMDB API key as follows: 
-      VITE_APP_TMDB_API_KEY=YOUR_API_KEY_HERE
 
 ### Running the Applicatio
 
