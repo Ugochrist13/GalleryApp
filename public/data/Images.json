@@ -4,241 +4,241 @@
 [
   {
     "id": 1,
-    "src": "../../src/assets/natures/img1.jpeg",
+    "src": "/natures/img1.jpeg",
     "title": "Nature Image 1",
     "tag": "Nature"
   },
   {
     "id": 11,
-    "src": "../../src/assets/cars/img1.jpeg",
+    "src": "/cars/img1.jpeg",
     "title": "Car Image 1",
     "tag": "Car"
   },
   {
     "id": 21,
-    "src": "../../src/assets/oceans/img1.jpeg",
+    "src": "/oceans/img1.jpeg",
     "title": "Ocean Image 1",
     "tag": "Ocean"
   },
   {
     "id": 31,
-    "src": "../../src/assets/beaches/img1.jpeg",
+    "src": "/beaches/img1.jpeg",
     "title": "Beach Image 1",
     "tag": "Beach"
   },
   {
     "id": 2,
-    "src": "../../src/assets/natures/img2.jpeg",
+    "src": "/natures/img2.jpeg",
     "title": "Nature Image 2",
     "tag": "Nature"
   },
   {
     "id": 12,
-    "src": "../../src/assets/cars/img2.jpeg",
+    "src": "/cars/img2.jpeg",
     "title": "Car Image 2",
     "tag": "Car"
   },
   {
     "id": 22,
-    "src": "../../src/assets/oceans/img2.jpeg",
+    "src": "/oceans/img2.jpeg",
     "title": "Ocean Image 2",
     "tag": "Ocean"
   },
   {
     "id": 32,
-    "src": "../../src/assets/beaches/img2.jpeg",
+    "src": "/beaches/img2.jpeg",
     "title": "Beach Image 2",
     "tag": "Beach"
   },
   {
     "id": 3,
-    "src": "../../src/assets/natures/img3.jpeg",
+    "src": "/natures/img3.jpeg",
     "title": "Nature Image 3",
     "tag": "Nature"
   },
   {
     "id": 13,
-    "src": "../../src/assets/cars/img3.jpeg",
+    "src": "/cars/img3.jpeg",
     "title": "Car Image 3",
     "tag": "Car"
   },
   {
     "id": 23,
-    "src": "../../src/assets/oceans/img3.jpeg",
+    "src": "/oceans/img3.jpeg",
     "title": "Ocean Image 3",
     "tag": "Ocean"
   },
   {
     "id": 33,
-    "src": "../../src/assets/beaches/img3.jpeg",
+    "src": "/beaches/img3.jpeg",
     "title": "Beach Image 3",
     "tag": "Beach"
   },
   {
     "id": 4,
-    "src": "../../src/assets/natures/img4.jpeg",
+    "src": "/natures/img4.jpeg",
     "title": "Nature Image 4",
     "tag": "Nature"
   },
   {
     "id": 14,
-    "src": "../../src/assets/cars/img4.jpeg",
+    "src": "/cars/img4.jpeg",
     "title": "Car Image 4",
     "tag": "Car"
   },
   {
     "id": 24,
-    "src": "../../src/assets/oceans/img4.jpeg",
+    "src": "/oceans/img4.jpeg",
     "title": "Ocean Image 4",
     "tag": "Ocean"
   },
   {
     "id": 34,
-    "src": "../../src/assets/beaches/img4.jpeg",
+    "src": "/beaches/img4.jpeg",
     "title": "Beach Image 4",
     "tag": "Beach"
   },
   {
     "id": 5,
-    "src": "../../src/assets/natures/img5.jpeg",
+    "src": "/natures/img5.jpeg",
     "title": "Nature Image 5",
     "tag": "Nature"
   },
   {
     "id": 15,
-    "src": "../../src/assets/cars/img5.jpeg",
+    "src": "/cars/img5.jpeg",
     "title": "Car Image 5",
     "tag": "Car"
   },
   {
     "id": 25,
-    "src": "../../src/assets/oceans/img5.jpeg",
+    "src": "/oceans/img5.jpeg",
     "title": "Ocean Image 5",
     "tag": "Ocean"
   },
   {
     "id": 35,
-    "src": "../../src/assets/beaches/img5.jpeg",
+    "src": "/beaches/img5.jpeg",
     "title": "Beach Image 5",
     "tag": "Beach"
   },
   {
     "id": 6,
-    "src": "../../src/assets/natures/img6.jpeg",
+    "src": "/natures/img6.jpeg",
     "title": "Nature Image 6",
     "tag": "Nature"
   },
   {
     "id": 16,
-    "src": "../../src/assets/cars/img6.jpeg",
+    "src": "/cars/img6.jpeg",
     "title": "Car Image 6",
     "tag": "Car"
   },
   {
     "id": 26,
-    "src": "../../src/assets/oceans/img6.jpeg",
+    "src": "/oceans/img6.jpeg",
     "title": "Ocean Image 6",
     "tag": "Ocean"
   },
   {
     "id": 36,
-    "src": "../../src/assets/beaches/img6.jpeg",
+    "src": "/beaches/img6.jpeg",
     "title": "Beach Image 6",
     "tag": "Beach"
   },
   {
     "id": 7,
-    "src": "../../src/assets/natures/img7.jpeg",
+    "src": "/natures/img7.jpeg",
     "title": "Nature Image 7",
     "tag": "Nature"
   },
   {
     "id": 17,
-    "src": "../../src/assets/cars/img7.jpeg",
+    "src": "/cars/img7.jpeg",
     "title": "Car Image 7",
     "tag": "Car"
   },
   {
     "id": 27,
-    "src": "../../src/assets/oceans/img7.jpeg",
+    "src": "/oceans/img7.jpeg",
     "title": "Ocean Image 7",
     "tag": "Ocean"
   },
   {
     "id": 37,
-    "src": "../../src/assets/beaches/img7.jpeg",
+    "src": "/beaches/img7.jpeg",
     "title": "Beach Image 7",
     "tag": "Beach"
   },
   {
     "id": 8,
-    "src": "../../src/assets/natures/img8.jpeg",
+    "src": "/natures/img8.jpeg",
     "title": "Nature Image 8",
     "tag": "Nature"
   },
   {
     "id": 18,
-    "src": "../../src/assets/cars/img8.jpeg",
+    "src": "/cars/img8.jpeg",
     "title": "Car Image 8",
     "tag": "Car"
   },
   {
     "id": 28,
-    "src": "../../src/assets/oceans/img8.jpeg",
+    "src": "/oceans/img8.jpeg",
     "title": "Ocean Image 8",
     "tag": "Ocean"
   },
   {
     "id": 38,
-    "src": "../../src/assets/beaches/img8.jpeg",
+    "src": "/beaches/img8.jpeg",
     "title": "Beach Image 8",
     "tag": "Beach"
   },
   {
     "id": 9,
-    "src": "../../src/assets/natures/img9.jpeg",
+    "src": "/natures/img9.jpeg",
     "title": "Nature Image 9",
     "tag": "Nature"
   },
   {
     "id": 19,
-    "src": "../../src/assets/cars/img9.jpeg",
+    "src": "/cars/img9.jpeg",
     "title": "Car Image 9",
     "tag": "Car"
   },
   {
     "id": 29,
-    "src": "../../src/assets/oceans/img9.jpeg",
+    "src": "/oceans/img9.jpeg",
     "title": "Ocean Image 9",
     "tag": "Ocean"
   },
   {
     "id": 39,
-    "src": "../../src/assets/beaches/img9.jpeg",
+    "src": "/beaches/img9.jpeg",
     "title": "Beach Image 9",
     "tag": "Beach"
   },
   {
     "id": 10,
-    "src": "../../src/assets/natures/img10.jpeg",
+    "src": "/natures/img10.jpeg",
     "title": "Nature Image 10",
     "tag": "Nature"
   },
   {
     "id": 20,
-    "src": "../../src/assets/cars/img10.jpeg",
+    "src": "/cars/img10.jpeg",
     "title": "Car Image 10",
     "tag": "Car"
   },
   {
     "id": 30,
-    "src": "../../src/assets/oceans/img10.jpeg",
+    "src": "/oceans/img10.jpeg",
     "title": "Ocean Image 10",
     "tag": "Ocean"
   },
   {
     "id": 40,
-    "src": "../../src/assets/beaches/img10.jpeg",
+    "src": "/beaches/img10.jpeg",
     "title": "Beach Image 10",
     "tag": "Beach"
   }
