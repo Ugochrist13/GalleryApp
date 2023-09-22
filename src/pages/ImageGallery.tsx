@@ -7,7 +7,7 @@ import Loading from "../assets/loads.gif";
 import Footer from "../components/Footer";
 import { IoMdMenu } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
-import imageData from '../../public/data/Images.json'
+import imageData from "../../public/data/Images.json";
 
 interface Image {
   id: number;
@@ -30,7 +30,7 @@ const ImageItem: React.FC<{
 
   const [, drop] = useDrop({
     accept: ItemType,
-    hover: (draggedItem: { index: number }) => {
+    drop: (draggedItem: { index: number }) => {
       if (draggedItem.index !== index) {
         moveImage(draggedItem.index, index);
         draggedItem.index = index;
@@ -65,17 +65,17 @@ const ImageGallery: React.FC<{ images: Image[] }> = ({ images }) => {
   useEffect(() => {
     // // Simulate loading for 2 seconds (replace with your fetch logic)
     setTimeout(() => {
-    //   // Fetch the JSON data from the public folder or API
-    //   fetch("src/data/images.json")
-    //     .then((response) => response.json())
-    //     .then((data) => {
-    //       setImageList(data);
-    //       // setFilteredImages(data);
-    //       setLoading(false); // Set loading to false when data is loaded
-    //     })
-    //     .catch((error) => console.error("Error fetching images:", error));
-    setLoading(false);
-    setImageList(imageData)
+      //   // Fetch the JSON data from the public folder or API
+      //   fetch("src/data/images.json")
+      //     .then((response) => response.json())
+      //     .then((data) => {
+      //       setImageList(data);
+      //       // setFilteredImages(data);
+      //       setLoading(false); // Set loading to false when data is loaded
+      //     })
+      //     .catch((error) => console.error("Error fetching images:", error));
+      setLoading(false);
+      setImageList(imageData);
     }, 2000); // Simulate a 2-second loading delay
   }, []);
 
@@ -112,11 +112,11 @@ const ImageGallery: React.FC<{ images: Image[] }> = ({ images }) => {
 
   return (
     <div className="mx-auto p-4">
-      <div className="w-full p-2 flex justify-between mb-8 items-center">
+      <div className="w-full p-2 px-4 z-50 fixed flex justify-between mb-8 items-center">
         <h2 className="lg:text-3xl font-bold text-bg text-center">
           Gent Gallery
         </h2>
-        <div className="flex items-center">
+        <div className="flex items-center mr-6">
           <button onClick={logout} className="text-bg hover:text-hover mr-4">
             Logout
           </button>
@@ -125,7 +125,9 @@ const ImageGallery: React.FC<{ images: Image[] }> = ({ images }) => {
           </div>
         </div>
       </div>
-      <SearchBar onSearch={handleSearch} />
+      <div className="w-full mt-14">
+        <SearchBar onSearch={handleSearch} />
+      </div>
       <DndProvider backend={HTML5Backend}>
         {loading ? (
           <div className="w-full h-96 flex items-center justify-center">
