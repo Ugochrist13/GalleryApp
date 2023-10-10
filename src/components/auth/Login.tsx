@@ -10,8 +10,8 @@ const Login = () => {
   const navigate = useNavigate();
 
   const handleLogin = async () => {
-    setIsAuthenticating(true); // Set the isAuthenticating state to true when login starts
-    setError(""); // Clear the error message
+    setIsAuthenticating(true);
+    setError("");
 
     // Simulate an asynchronous login process for 1 second
     setTimeout(() => {
@@ -19,8 +19,11 @@ const Login = () => {
         navigate("/gallery");
       } else {
         setError("Invalid email or password");
+        // Display default username and password in the input fields when the login fails
+        setEmail("user@example.com");
+        setPassword("1Password");
       }
-      setIsAuthenticating(false); // Set isAuthenticating back to false after 1 second
+      setIsAuthenticating(false);
     }, 1500);
   };
 
