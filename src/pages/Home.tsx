@@ -22,7 +22,7 @@ const Home: React.FC = () => {
       className="w-full h-screen py-4"
     >
       <Navbar />
-      <div className="absolute top-0 right-0 p-4">
+      <div className="absolute top-40 right-0 p-4">
         <div className="bg-white bg-opacity-80 p-2 rounded-lg">
           <p className="text-sm">
             Username: <strong>user@example.com</strong>
